@@ -7,12 +7,14 @@ import {
   Body,
   ParseUUIDPipe,
 } from '@nestjs/common';
+
 import {
   CreateStudentDto,
   FindStudentResponseDto,
   StudentResponseDto,
   UpdateStudentDto,
 } from './dto/student.dto';
+
 import { StudentService } from './student.service';
 
 @Controller('students')
